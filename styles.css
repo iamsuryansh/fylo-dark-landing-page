@@ -343,18 +343,20 @@ body{
   }
 
   .intro img {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 90%;
   }
 
   .intro .heading {
     width: 90%;
-    /* font-size: 18px; */
+    margin-top: 50px;
+    font-size: 18px;
   }
 
   .intro .summary {
     width: 80%;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    /* background-color: hsl(218, 28%, 13%); */
   }
 
   .intro .btn {
@@ -365,10 +367,11 @@ body{
 
   .intro {
     background-image: url(images/bg-curvy-mobile.svg);
-    background-position: center 670px;
+    background-position: center 600px;
   }
 
   .features {
+    position: relative;
     display: flex;
   }
 
@@ -489,9 +492,4 @@ body{
     margin-bottom: 10px;
 
   }
-
-
-
-
-
 }
